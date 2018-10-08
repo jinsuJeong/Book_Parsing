@@ -12,6 +12,8 @@
 		3CD21B8F2163383400AC11E9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD21B8D2163383400AC11E9 /* Main.storyboard */; };
 		3CD21B912163383900AC11E9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3CD21B902163383900AC11E9 /* Assets.xcassets */; };
 		3CD21B942163383900AC11E9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3CD21B922163383900AC11E9 /* LaunchScreen.storyboard */; };
+		3CD21B9C2163388300AC11E9 /* book.xml in Resources */ = {isa = PBXBuildFile; fileRef = 3CD21B9B2163388300AC11E9 /* book.xml */; };
+		3CD21B9E216338F500AC11E9 /* BookData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3CD21B9D216338F500AC11E9 /* BookData.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		3CD21B902163383900AC11E9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		3CD21B932163383900AC11E9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		3CD21B952163383900AC11E9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		3CD21B9B2163388300AC11E9 /* book.xml */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = book.xml; sourceTree = "<group>"; };
+		3CD21B9D216338F500AC11E9 /* BookData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BookData.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -60,6 +64,8 @@
 				3CD21B902163383900AC11E9 /* Assets.xcassets */,
 				3CD21B922163383900AC11E9 /* LaunchScreen.storyboard */,
 				3CD21B952163383900AC11E9 /* Info.plist */,
+				3CD21B9B2163388300AC11E9 /* book.xml */,
+				3CD21B9D216338F500AC11E9 /* BookData.swift */,
 			);
 			path = Book_Parsing;
 			sourceTree = "<group>";
@@ -124,6 +130,7 @@
 			files = (
 				3CD21B942163383900AC11E9 /* LaunchScreen.storyboard in Resources */,
 				3CD21B912163383900AC11E9 /* Assets.xcassets in Resources */,
+				3CD21B9C2163388300AC11E9 /* book.xml in Resources */,
 				3CD21B8F2163383400AC11E9 /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -137,6 +144,7 @@
 			files = (
 				3CD21B8C2163383400AC11E9 /* ViewController.swift in Sources */,
 				3CD21B8A2163383400AC11E9 /* AppDelegate.swift in Sources */,
+				3CD21B9E216338F500AC11E9 /* BookData.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
